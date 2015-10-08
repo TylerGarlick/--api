@@ -1,0 +1,10 @@
+.git*
+README.md
+test
+data/
+wallaby.*
+circle.yml
+register.sh
+.editorconfig
+.eslint*
+.npm*

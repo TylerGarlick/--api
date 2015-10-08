@@ -1,0 +1,59 @@
+{
+  "name": "microservice-api",
+  "version": "0.0.1",
+  "description": "µservice framework boilerplate that simplifies development and eases testability of code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TylerGarlick/microservice-api.git"
+  },
+  "keywords": [
+    "hapijs",
+    "api",
+    "microservices"
+  ],
+  "author": "Tyler Garlick <tjgarlick@gmail.com>",
+  "contributors": [
+    {
+      "name": "Tyler Garlick",
+      "email": "tjgarlick@gmail.com"
+    },
+    {
+      "name": "Colten Rouska",
+      "email": "crouska@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TylerGarlick/microservice-api/issues"
+  },
+  "homepage": "https://github.com/TylerGarlick/microservice-api#readme",
+  "dependencies": {
+    "blipp": "^2.3.0",
+    "bluebird": "^2.10.2",
+    "boom": "^2.9.0",
+    "consul": "^0.18.1",
+    "good": "^6.4.0",
+    "good-console": "^5.1.0",
+    "hapi": "^10.4.0",
+    "hapi-async-handler": "^1.0.3",
+    "hapi-router": "^3.4.0",
+    "hapi-routes-status": "^2.1.1",
+    "inert": "^3.1.0",
+    "joi": "^6.9.0",
+    "nconf": "^0.8.2",
+    "poop": "^1.3.0",
+    "tv": "^4.1.2",
+    "vision": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "istanbul": "^0.3.22",
+    "mocha": "^2.3.3",
+    "shot": "^1.7.0"
+  }
+}
