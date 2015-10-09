@@ -1,12 +1,12 @@
 'use strict';
 
-let Configuration = require('../../../lib/configuration');
+let Configurator = require('../../../lib/configurator');
 
-describe('Configuration', () => {
+describe('Configurator', () => {
 
   let configuration;
   before(() => {
-    configuration = new Configuration();
+    configuration = new Configurator();
     expect(configuration).to.be.ok;
   });
 
@@ -19,12 +19,12 @@ describe('Configuration', () => {
 
   });
 
-  //describe('overloading configuration', () => {
+  //describe('overloading configurator', () => {
   //
   //  it('should be able to override the NODE_ENV', () => {
-  //    let configuration = new Configuration({files: ['unit/configuration/overloaded.json']});
+  //    let configurator = new Configurator({files: ['unit/configurator/overloaded.json']});
   //    const ENV = 'Bogus';
-  //    expect(configuration.get('NODE_ENV')).to.be.eql(ENV);
+  //    expect(configurator.get('NODE_ENV')).to.be.eql(ENV);
   //  });
   //
   //

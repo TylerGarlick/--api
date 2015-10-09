@@ -1,6 +1,6 @@
 'use strict';
 
-let Server = require('../../../lib');
+let Server = require('../../../api');
 let Shot = require('shot');
 
 describe('/v1/status', () => {
